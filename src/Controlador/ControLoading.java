@@ -22,7 +22,7 @@ public class ControLoading {
         cargaLoadingSistema();
     }
     private void cargaLoadingSistema(){
-        //Nimbus
+        //Nimbus tip sistem
         try {
             for(javax.swing.UIManager.LookAndFeelInfo info: javax.swing.UIManager.getInstalledLookAndFeels()){
                 if("Window".equals(info.getName())){
@@ -58,7 +58,6 @@ public class ControLoading {
         MenuPrincipal mp = new MenuPrincipal();
         ControlMenuPrincipal controlmp = new ControlMenuPrincipal(mp);
         controlmp.iniciaControl();
-        
-    }
-    
+       
+    } 
 }
